@@ -36,7 +36,7 @@ const Chance = ({
             >
                 <Box
                     sx={{
-                        height: "200px",
+                        height: "150px",
                         width: "100%",
                         flexDirection: "row",
                         display: "flex",
@@ -47,7 +47,7 @@ const Chance = ({
                     <Box
                         sx={{
                             width: "40%",
-                            height: "95%",
+                            height: "100%",
                             backgroundImage: 'url("/stockmarket.jpeg")',
                             backgroundSize: "cover",
                             backgroundPosition: "center"
@@ -65,7 +65,7 @@ const Chance = ({
                     <Button
                         onClick={getRandomStockMarket}
                         sx={{
-                            height: "50px",
+                            height: "40px",
                             borderRadius: "10px",
                             border: "1px solid",
                             width: "40%"
@@ -104,7 +104,7 @@ const Chance = ({
                 </Box>
                 <Box
                     sx={{
-                        height: "200px",
+                        height: "150px",
                         width: "100%",
                         flexDirection: "row",
                         display: "flex",
@@ -116,7 +116,7 @@ const Chance = ({
                     <Box
                         sx={{
                             width: "40%",
-                            height: "95%",
+                            height: "100%",
                             backgroundImage: 'url("/btczar3.jpeg")',
                             backgroundSize: "cover",
                             backgroundPosition: "center"
@@ -125,7 +125,7 @@ const Chance = ({
                     <Box
                         sx={{
                             width: "40%",
-                            height: "95%",
+                            height: "100%",
                             backgroundColor: "red",
                             backgroundImage: 'url("/dolarlarge.jpeg")',
                             backgroundSize: "cover",
@@ -145,7 +145,7 @@ const Chance = ({
                         onClick={getRandomVal}
                         disabled={!selectedStockMarket}
                         sx={{
-                            height: "50px",
+                            height: "40px",
                             borderRadius: "10px",
                             border: "1px solid",
                             width: "40%"
@@ -157,7 +157,7 @@ const Chance = ({
                         onClick={getRandomNumber}
                         disabled={!selectedVal}
                         sx={{
-                            height: "50px",
+                            height: "40px",
                             borderRadius: "10px",
                             border: "1px solid",
                             width: "40%"
@@ -174,7 +174,7 @@ const Chance = ({
                         display: "flex",
                         justifyContent: "space-evenly",
                         alignItems: "center",
-                        marginTop: "50px"
+                        marginTop: "15px"
                     }}
                 >
                     <Box
