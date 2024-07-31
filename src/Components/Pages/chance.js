@@ -71,7 +71,7 @@ const Chance = ({
                             width: "40%"
                         }}
                     >
-                        Zar
+                        Click
                     </Button>
                 </Box>
                 <Box
@@ -151,7 +151,7 @@ const Chance = ({
                             width: "40%"
                         }}
                     >
-                        Zar
+                        Click
                     </Button>
                     <Button
                         onClick={getRandomNumber}
@@ -163,7 +163,7 @@ const Chance = ({
                             width: "40%"
                         }}
                     >
-                        Zar 2
+                        Click 
                     </Button>
                 </Box>
                 <Box
